@@ -1,6 +1,12 @@
 # News Aggregator
 
+
+
+
+
 ## Overview
+![Screenshot 2024-09-29 141709](https://github.com/user-attachments/assets/00c4ce69-aeea-481b-a6dd-8b19096dd8fa)
+
 The News Aggregator is a web application that fetches and displays news articles from various sources based on user input. Users can search for news articles by entering keywords, and the application will retrieve relevant articles along with their titles, descriptions, and links.
 
 ## Features
