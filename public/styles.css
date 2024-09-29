@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #575555; 
+}
+
+header {
+    background-color: rebeccapurple;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: white;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#news-container {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+    margin: 20px auto;
+    max-width: 1200px; 
+}
+
+.article {
+    background: black;
+    color: red;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px whitesmoke;
+    transition: transform 0.2s;
+    display: flex; 
+    flex-direction: column; 
+    height: 100%; 
+}
+
+.article:hover {
+    transform: scale(1.05); 
+
+}
+
+a {
+    display: block;
+    margin-top: auto; 
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#search-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; 
+}
+
+#search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+#search-button:hover {
+    background-color: #0056b3; 
+}
